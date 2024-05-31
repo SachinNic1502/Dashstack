@@ -1,10 +1,22 @@
+// Sidebar.js
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { RiBillLine, RiCalendarLine, RiDashboard3Line, RiFileList2Line, RiHeartLine, RiPriceTag3Line, RiProductHuntLine, RiSettings3Line, RiShutDownLine, RiStockLine } from 'react-icons/ri';  // Make sure to import the icon
+import { 
+  RiBillLine, 
+  RiCalendarLine, 
+  RiDashboard3Line, 
+  RiFileList2Line, 
+  RiHeartLine, 
+  RiPriceTag3Line, 
+  RiProductHuntLine, 
+  RiSettings3Line, 
+  RiShutDownLine, 
+  RiStockLine 
+} from 'react-icons/ri';  // Make sure to import the icon
 
 const Sidebar = () => {
   return (
-    <aside className="w-[250px] bg-white p-4 shadow-md">
+    <aside className="w-[250px] bg-white p-4 shadow-md h-screen fixed top-0 left-0">
       <nav>
         <ul className="text-center">
           <li>
@@ -71,7 +83,7 @@ const Sidebar = () => {
               Product Stock
             </NavLink>
           </li>
-          <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"></hr>
+          <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"></hr>
           <p className='flex items-center text-[#202224]'>PAGES</p>
           <li className="mb-2">
             <NavLink
@@ -106,7 +118,7 @@ const Sidebar = () => {
               Invoice
             </NavLink>
           </li>
-          <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"></hr>
+          <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"></hr>
 
           <li className="mb-2">
             <NavLink

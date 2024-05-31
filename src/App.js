@@ -1,7 +1,7 @@
+// App.js
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Navbar from './components/Navbar';
-import Sidebar from './components/Sidebar';
+import AuthenticatedLayout from './components/AuthenticatedLayout';
 import Dashboard from './components/Dashboard';
 import Settings from './components/Settings';
 import Login from './components/Login';
@@ -15,21 +15,6 @@ import Calendar from './components/Calendar';
 import Invoice from './components/Invoice';
 import OrderList from './components/OrderList';
 import CreateAccount from './components/CreateAccount';
-
-// Layout for authenticated routes
-function AuthenticatedLayout({ children }) {
-  return (
-    <div className="min-h-screen flex">
-      <Sidebar />
-      <div className="flex flex-col flex-grow">
-        <Navbar />
-        <main className="flex-grow p-4">
-          {children}
-        </main>
-      </div>
-    </div>
-  );
-}
 
 function App() {
   return (
@@ -50,7 +35,6 @@ function App() {
         <Route path="/pricing" element={<AuthenticatedLayout><Pricing /></AuthenticatedLayout>} />
         <Route path="/calendar" element={<AuthenticatedLayout><Calendar /></AuthenticatedLayout>} />
         <Route path="/invoice" element={<AuthenticatedLayout><Invoice /></AuthenticatedLayout>} />
-        
         
         {/* Catch-all route for 404 Not Found */}
         <Route path="*" element={<NotFound />} />
