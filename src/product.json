@@ -1,0 +1,502 @@
+[
+    {
+      "name": "Smartphone XYZ",
+      "description": "A high-end smartphone with cutting-edge features.",
+      "brand": "TechBrand",
+      "category": "Electronics",
+      "subCategory": "Mobile Phones",
+      "price": 999.99,
+      "discountedPrice": 899.99,
+      "rating": 4.5,
+      "reviews": [
+        {
+          "user": "Alice",
+          "comment": "Great phone with excellent battery life.",
+          "rating": 5
+        },
+        {
+          "user": "Bob",
+          "comment": "Good value for money.",
+          "rating": 4
+        }
+      ],
+      "specifications": [
+        {
+          "key": "Screen Size",
+          "value": "6.5 inches"
+        },
+        {
+          "key": "Battery Capacity",
+          "value": "4000mAh"
+        },
+        {
+          "key": "RAM",
+          "value": "8GB"
+        },
+        {
+          "key": "Storage",
+          "value": "128GB"
+        }
+      ],
+      "images": [
+        "image1.jpg",
+        "image2.jpg",
+        "image3.jpg"
+      ],
+      "features": [
+        "Fast Charging",
+        "Water Resistant",
+        "Fingerprint Sensor",
+        "Dual SIM"
+      ],
+      "warranty": "2 years",
+      "returnPolicy": "30 days return policy",
+      "availability": "In Stock"
+    },
+    {
+      "name": "Laptop Pro",
+      "description": "A powerful laptop for professionals.",
+      "brand": "TechBrand",
+      "category": "Electronics",
+      "subCategory": "Laptops",
+      "price": 1499.99,
+      "discountedPrice": 1299.99,
+      "rating": 4.8,
+      "reviews": [
+        {
+          "user": "Charlie",
+          "comment": "Superb performance and battery life.",
+          "rating": 5
+        },
+        {
+          "user": "David",
+          "comment": "Worth every penny.",
+          "rating": 5
+        }
+      ],
+      "specifications": [
+        {
+          "key": "Screen Size",
+          "value": "15.6 inches"
+        },
+        {
+          "key": "Processor",
+          "value": "Intel i7"
+        },
+        {
+          "key": "RAM",
+          "value": "16GB"
+        },
+        {
+          "key": "Storage",
+          "value": "512GB SSD"
+        }
+      ],
+      "images": [
+        "laptop1.jpg",
+        "laptop2.jpg"
+      ],
+      "features": [
+        "Backlit Keyboard",
+        "Touchscreen",
+        "Thunderbolt 3",
+        "Face Recognition"
+      ],
+      "warranty": "1 year",
+      "returnPolicy": "15 days return policy",
+      "availability": "Out of Stock"
+    },
+    {
+      "name": "Wireless Earbuds",
+      "description": "Comfortable and high-quality sound wireless earbuds.",
+      "brand": "SoundWave",
+      "category": "Electronics",
+      "subCategory": "Audio",
+      "price": 199.99,
+      "discountedPrice": 149.99,
+      "rating": 4.7,
+      "reviews": [
+        {
+          "user": "Emma",
+          "comment": "Excellent sound quality and comfort.",
+          "rating": 5
+        },
+        {
+          "user": "Frank",
+          "comment": "Battery life could be better.",
+          "rating": 4
+        }
+      ],
+      "specifications": [
+        {
+          "key": "Battery Life",
+          "value": "10 hours"
+        },
+        {
+          "key": "Bluetooth Version",
+          "value": "5.0"
+        },
+        {
+          "key": "Water Resistance",
+          "value": "IPX7"
+        }
+      ],
+      "images": [
+        "earbuds1.jpg",
+        "earbuds2.jpg"
+      ],
+      "features": [
+        "Noise Cancelling",
+        "Touch Controls",
+        "Wireless Charging",
+        "Voice Assistant Support"
+      ],
+      "warranty": "1 year",
+      "returnPolicy": "30 days return policy",
+      "availability": "In Stock"
+    },
+    {
+      "name": "Smartwatch Alpha",
+      "description": "A stylish smartwatch with fitness tracking features.",
+      "brand": "TechBrand",
+      "category": "Electronics",
+      "subCategory": "Wearables",
+      "price": 299.99,
+      "discountedPrice": 249.99,
+      "rating": 4.3,
+      "reviews": [
+        {
+          "user": "George",
+          "comment": "Great features and easy to use.",
+          "rating": 4
+        },
+        {
+          "user": "Hannah",
+          "comment": "Screen could be brighter.",
+          "rating": 4
+        }
+      ],
+      "specifications": [
+        {
+          "key": "Screen Size",
+          "value": "1.4 inches"
+        },
+        {
+          "key": "Battery Life",
+          "value": "7 days"
+        },
+        {
+          "key": "Water Resistance",
+          "value": "50m"
+        }
+      ],
+      "images": [
+        "smartwatch1.jpg",
+        "smartwatch2.jpg"
+      ],
+      "features": [
+        "Heart Rate Monitor",
+        "GPS",
+        "Sleep Tracking",
+        "Notifications"
+      ],
+      "warranty": "2 years",
+      "returnPolicy": "30 days return policy",
+      "availability": "In Stock"
+    },
+    {
+      "name": "Gaming Console",
+      "description": "Next-gen gaming console for ultimate gaming experience.",
+      "brand": "GameTech",
+      "category": "Electronics",
+      "subCategory": "Gaming",
+      "price": 499.99,
+      "discountedPrice": 449.99,
+      "rating": 4.9,
+      "reviews": [
+        {
+          "user": "Ian",
+          "comment": "Amazing graphics and performance.",
+          "rating": 5
+        },
+        {
+          "user": "Jane",
+          "comment": "Best gaming console ever.",
+          "rating": 5
+        }
+      ],
+      "specifications": [
+        {
+          "key": "Storage",
+          "value": "1TB"
+        },
+        {
+          "key": "Resolution",
+          "value": "4K"
+        },
+        {
+          "key": "RAM",
+          "value": "16GB"
+        }
+      ],
+      "images": [
+        "console1.jpg",
+        "console2.jpg"
+      ],
+      "features": [
+        "Ray Tracing",
+        "VR Support",
+        "Backward Compatibility",
+        "Online Multiplayer"
+      ],
+      "warranty": "1 year",
+      "returnPolicy": "30 days return policy",
+      "availability": "In Stock"
+    },
+    {
+      "name": "4K Ultra HD TV",
+      "description": "A 55-inch 4K Ultra HD smart TV with HDR support.",
+      "brand": "VisionTech",
+      "category": "Electronics",
+      "subCategory": "Televisions",
+      "price": 699.99,
+      "discountedPrice": 599.99,
+      "rating": 4.6,
+      "reviews": [
+        {
+          "user": "Kyle",
+          "comment": "Stunning picture quality.",
+          "rating": 5
+        },
+        {
+          "user": "Laura",
+          "comment": "Good value for money.",
+          "rating": 4
+        }
+      ],
+      "specifications": [
+        {
+          "key": "Screen Size",
+          "value": "55 inches"
+        },
+        {
+          "key": "Resolution",
+          "value": "4K"
+        },
+        {
+          "key": "Smart TV",
+          "value": "Yes"
+        }
+      ],
+      "images": [
+        "tv1.jpg",
+        "tv2.jpg"
+      ],
+      "features": [
+        "HDR",
+        "Dolby Vision",
+        "Voice Control",
+        "Multiple HDMI Ports"
+      ],
+      "warranty": "2 years",
+      "returnPolicy": "15 days return policy",
+      "availability": "In Stock"
+    },
+    {
+      "name": "Bluetooth Speaker",
+      "description": "Portable Bluetooth speaker with high-quality sound.",
+      "brand": "SoundWave",
+      "category": "Electronics",
+      "subCategory": "Audio",
+      "price": 99.99,
+      "discountedPrice": 79.99,
+      "rating": 4.2,
+      "reviews": [
+        {
+          "user": "Mike",
+          "comment": "Great sound quality for its size.",
+          "rating": 4
+        },
+        {
+          "user": "Nina",
+          "comment": "Battery life could be better.",
+          "rating": 3
+        }
+      ],
+      "specifications": [
+        {
+          "key": "Battery Life",
+          "value": "8 hours"
+        },
+        {
+          "key": "Bluetooth Range",
+          "value": "30 feet"
+        },
+        {
+          "key": "Water Resistance",
+          "value": "IPX4"
+        }
+      ],
+      "images": [
+        "speaker1.jpg",
+        "speaker2.jpg"
+      ],
+      "features": [
+        "Built-in Microphone",
+        "Stereo Pairing",
+        "Compact Design",
+        "Voice Assistant Support"
+      ],
+      "warranty": "1 year",
+      "returnPolicy": "30 days return policy",
+      "availability": "In Stock"
+    },
+    {
+      "name": "Tablet X",
+      "description": "A lightweight tablet with a stunning display.",
+      "brand": "TechBrand",
+      "category": "Electronics",
+      "subCategory": "Tablets",
+      "price": 399.99,
+      "discountedPrice": 349.99,
+      "rating": 4.4,
+      "reviews": [
+        {
+          "user": "Oliver",
+          "comment": "Great for reading and browsing.",
+          "rating": 4
+        },
+        {
+          "user": "Penny",
+          "comment": "Battery life is impressive.",
+          "rating": 4
+        }
+      ],
+      "specifications": [
+        {
+          "key": "Screen Size",
+          "value": "10.1 inches"
+        },
+        {
+          "key": "Storage",
+          "value": "64GB"
+        },
+        {
+          "key": "Battery Life",
+          "value": "10 hours"
+        }
+      ],
+      "images": [
+        "tablet1.jpg",
+        "tablet2.jpg"
+      ],
+      "features": [
+        "Expandable Storage",
+        "Stylus Support",
+        "Fast Charging",
+        "Dual Speakers"
+      ],
+      "warranty": "1 year",
+      "returnPolicy": "30 days return policy",
+      "availability": "In Stock"
+    },
+    {
+      "name": "Fitness Tracker",
+      "description": "A sleek fitness tracker with comprehensive health monitoring.",
+      "brand": "FitBrand",
+      "category": "Electronics",
+      "subCategory": "Wearables",
+      "price": 79.99,
+      "discountedPrice": 59.99,
+      "rating": 4.1,
+      "reviews": [
+        {
+          "user": "Quincy",
+          "comment": "Accurate tracking and comfortable to wear.",
+          "rating": 4
+        },
+        {
+          "user": "Rita",
+          "comment": "The display could be brighter.",
+          "rating": 3
+        }
+      ],
+      "specifications": [
+        {
+          "key": "Battery Life",
+          "value": "7 days"
+        },
+        {
+          "key": "Water Resistance",
+          "value": "50m"
+        },
+        {
+          "key": "Heart Rate Monitor",
+          "value": "Yes"
+        }
+      ],
+      "images": [
+        "tracker1.jpg",
+        "tracker2.jpg"
+      ],
+      "features": [
+        "Sleep Tracking",
+        "GPS",
+        "Notifications",
+        "Activity Tracking"
+      ],
+      "warranty": "1 year",
+      "returnPolicy": "30 days return policy",
+      "availability": "In Stock"
+    },
+    {
+      "name": "Digital Camera",
+      "description": "A high-resolution digital camera with advanced features.",
+      "brand": "PhotoTech",
+      "category": "Electronics",
+      "subCategory": "Cameras",
+      "price": 899.99,
+      "discountedPrice": 799.99,
+      "rating": 4.7,
+      "reviews": [
+        {
+          "user": "Sam",
+          "comment": "Amazing picture quality and features.",
+          "rating": 5
+        },
+        {
+          "user": "Tina",
+          "comment": "Easy to use and compact.",
+          "rating": 4
+        }
+      ],
+      "specifications": [
+        {
+          "key": "Resolution",
+          "value": "24MP"
+        },
+        {
+          "key": "Lens",
+          "value": "18-55mm"
+        },
+        {
+          "key": "Battery Life",
+          "value": "500 shots"
+        }
+      ],
+      "images": [
+        "camera1.jpg",
+        "camera2.jpg"
+      ],
+      "features": [
+        "4K Video Recording",
+        "Wi-Fi Connectivity",
+        "Touchscreen",
+        "Optical Zoom"
+      ],
+      "warranty": "2 years",
+      "returnPolicy": "15 days return policy",
+      "availability": "In Stock"
+    }
+  ]
+  

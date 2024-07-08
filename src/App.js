@@ -15,6 +15,7 @@ import Calendar from './components/Calendar';
 import Invoice from './components/Invoice';
 import OrderList from './components/OrderList';
 import CreateAccount from './components/CreateAccount';
+import User from './components/User';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
         <Route path="/favorite" element={<AuthenticatedLayout><Favorite /></AuthenticatedLayout>} />
         <Route path="/order-list" element={<AuthenticatedLayout><OrderList /></AuthenticatedLayout>} />
         <Route path="/product-stock" element={<AuthenticatedLayout><ProductStock /></AuthenticatedLayout>} />
+        <Route path="/user" element={<AuthenticatedLayout><User /></AuthenticatedLayout>} />
         <Route path="/pricing" element={<AuthenticatedLayout><Pricing /></AuthenticatedLayout>} />
         <Route path="/calendar" element={<AuthenticatedLayout><Calendar /></AuthenticatedLayout>} />
         <Route path="/invoice" element={<AuthenticatedLayout><Invoice /></AuthenticatedLayout>} />

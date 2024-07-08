@@ -1,0 +1,483 @@
+[
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "phone": "+1234567890",
+      "address": {
+        "street": "123 Main St",
+        "city": "Anytown",
+        "state": "CA",
+        "zip": "12345"
+      },
+      "orders": [
+        {
+          "orderId": "ORD-123",
+          "orderDate": "2024-06-07",
+          "orderType": "Electronics",
+          "status": "Processing"
+        },
+        {
+          "orderId": "ORD-456",
+          "orderDate": "2024-05-15",
+          "orderType": "Clothing",
+          "status": "Completed"
+        }
+      ],
+      "status": "Active"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "phone": "+1987654321",
+      "address": {
+        "street": "456 Elm St",
+        "city": "Smalltown",
+        "state": "NY",
+        "zip": "54321"
+      },
+      "orders": [
+        {
+          "orderId": "ORD-789",
+          "orderDate": "2024-06-06",
+          "orderType": "Fashion & Beauty",
+          "status": "Completed"
+        }
+      ],
+      "status": "Active"
+    },
+    {
+      "id": 3,
+      "name": "Michael Johnson",
+      "email": "michael.johnson@example.com",
+      "phone": "+1650321876",
+      "address": {
+        "street": "789 Oak Ave",
+        "city": "Metro City",
+        "state": "TX",
+        "zip": "98765"
+      },
+      "orders": [
+        {
+          "orderId": "ORD-246",
+          "orderDate": "2024-06-12",
+          "orderType": "Home Appliances",
+          "status": "Processing"
+        }
+      ],
+      "status": "Active"
+    },
+    {
+      "id": 4,
+      "name": "Emily Brown",
+      "email": "emily.brown@example.com",
+      "phone": "+1432765432",
+      "address": {
+        "street": "321 Pine St",
+        "city": "Village Town",
+        "state": "FL",
+        "zip": "34567"
+      },
+      "orders": [
+        {
+          "orderId": "ORD-357",
+          "orderDate": "2024-05-29",
+          "orderType": "Books",
+          "status": "Completed"
+        },
+        {
+          "orderId": "ORD-579",
+          "orderDate": "2024-06-20",
+          "orderType": "Electronics",
+          "status": "Processing"
+        }
+      ],
+      "status": "Active"
+    },
+    {
+      "id": 5,
+      "name": "William Taylor",
+      "email": "william.taylor@example.com",
+      "phone": "+1122334455",
+      "address": {
+        "street": "567 Maple Dr",
+        "city": "Big City",
+        "state": "CA",
+        "zip": "54321"
+      },
+      "orders": [
+        {
+          "orderId": "ORD-468",
+          "orderDate": "2024-06-15",
+          "orderType": "Sports Equipment",
+          "status": "Completed"
+        }
+      ],
+      "status": "Active"
+    },
+    {
+      "id": 6,
+      "name": "Olivia Wilson",
+      "email": "olivia.wilson@example.com",
+      "phone": "+1555098765",
+      "address": {
+        "street": "876 Cedar Ln",
+        "city": "Mountain Village",
+        "state": "CO",
+        "zip": "87654"
+      },
+      "orders": [
+        {
+          "orderId": "ORD-789",
+          "orderDate": "2024-05-30",
+          "orderType": "Fashion & Beauty",
+          "status": "Completed"
+        },
+        {
+          "orderId": "ORD-890",
+          "orderDate": "2024-06-25",
+          "orderType": "Home Decor",
+          "status": "Processing"
+        }
+      ],
+      "status": "Active"
+    },
+    {
+      "id": 7,
+      "name": "Daniel Martinez",
+      "email": "daniel.martinez@example.com",
+      "phone": "+1357908642",
+      "address": {
+        "street": "234 Pine Ave",
+        "city": "Sunnyville",
+        "state": "CA",
+        "zip": "23456"
+      },
+      "orders": [
+        {
+          "orderId": "ORD-123",
+          "orderDate": "2024-06-01",
+          "orderType": "Electronics",
+          "status": "Processing"
+        }
+      ],
+      "status": "Active"
+    },
+    {
+      "id": 8,
+      "name": "Sophia Garcia",
+      "email": "sophia.garcia@example.com",
+      "phone": "+1209876543",
+      "address": {
+        "street": "456 Oak St",
+        "city": "River City",
+        "state": "NY",
+        "zip": "56789"
+      },
+      "orders": [
+        {
+          "orderId": "ORD-567",
+          "orderDate": "2024-06-18",
+          "orderType": "Toys",
+          "status": "Completed"
+        }
+      ],
+      "status": "Active"
+    },
+    {
+      "id": 9,
+      "name": "Matthew Clark",
+      "email": "matthew.clark@example.com",
+      "phone": "+1765432109",
+      "address": {
+        "street": "789 Elm Ave",
+        "city": "Harbor Town",
+        "state": "FL",
+        "zip": "65432"
+      },
+      "orders": [
+        {
+          "orderId": "ORD-345",
+          "orderDate": "2024-06-02",
+          "orderType": "Clothing",
+          "status": "Completed"
+        }
+      ],
+      "status": "Active"
+    },
+    {
+      "id": 10,
+      "name": "Isabella Rodriguez",
+      "email": "isabella.rodriguez@example.com",
+      "phone": "+1888123456",
+      "address": {
+        "street": "321 Cedar Dr",
+        "city": "Garden City",
+        "state": "CA",
+        "zip": "43210"
+      },
+      "orders": [
+        {
+          "orderId": "ORD-678",
+          "orderDate": "2024-06-10",
+          "orderType": "Home Appliances",
+          "status": "Processing"
+        }
+      ],
+      "status": "Active"
+    },
+    {
+      "id": 11,
+      "name": "James Lee",
+      "email": "james.lee@example.com",
+      "phone": "+1987456321",
+      "address": {
+        "street": "567 Pine Ln",
+        "city": "Lakeside",
+        "state": "TX",
+        "zip": "98765"
+      },
+      "orders": [
+        {
+          "orderId": "ORD-456",
+          "orderDate": "2024-06-14",
+          "orderType": "Books",
+          "status": "Completed"
+        },
+        {
+          "orderId": "ORD-890",
+          "orderDate": "2024-06-30",
+          "orderType": "Electronics",
+          "status": "Processing"
+        }
+      ],
+      "status": "Active"
+    },
+    {
+      "id": 12,
+      "name": "Ella Baker",
+      "email": "ella.baker@example.com",
+      "phone": "+1543210987",
+      "address": {
+        "street": "876 Maple Ave",
+        "city": "Springfield",
+        "state": "IL",
+        "zip": "54321"
+      },
+      "orders": [
+        {
+          "orderId": "ORD-234",
+          "orderDate": "2024-06-08",
+          "orderType": "Fashion & Beauty",
+          "status": "Completed"
+        }
+      ],
+      "status": "Active"
+    },
+    {
+      "id": 13,
+      "name": "David Wright",
+      "email": "david.wright@example.com",
+      "phone": "+1678904321",
+      "address": {
+        "street": "234 Oak Dr",
+        "city": "Hilltop",
+        "state": "CA",
+        "zip": "89012"
+      },
+      "orders": [
+        {
+          "orderId": "ORD-890",
+          "orderDate": "2024-06-11",
+          "orderType": "Toys",
+          "status": "Processing"
+        }
+      ],
+      "status": "Active"
+    },
+    {
+      "id": 14,
+      "name": "Ava Martin",
+      "email": "ava.martin@example.com",
+      "phone": "+1432750987",
+      "address": {
+        "street": "789 Pine Ave",
+        "city": "Meadow City",
+        "state": "TX",
+        "zip": "34567"
+      },
+      "orders": [
+        {
+          "orderId": "ORD-567",
+          "orderDate": "2024-06-19",
+          "orderType": "Home Decor",
+          "status": "Completed"
+        }
+      ],
+      "status": "Active"
+    },
+    {
+      "id": 15,
+      "name": "Jackson White",
+      "email": "jackson.white@example.com",
+      "phone": "+1650432178",
+      "address": {
+        "street": "567 Pine Ln",
+        "city": "Lakeside",
+        "state": "TX",
+        "zip": "98765"
+      },
+      "orders": [
+        {
+          "orderId": "ORD-876",
+          "orderDate": "2024-06-15",
+          "orderType": "Books",
+          "status": "Completed"
+        },
+        {
+          "orderId": "ORD-098",
+          "orderDate": "2024-06-30",
+          "orderType": "Electronics",
+          "status": "Processing"
+        }
+      ],
+      "status": "Active"
+    },
+    {
+      "id": 16,
+      "name": "Charlotte Young",
+      "email": "charlotte.young@example.com",
+      "phone": "+1650432176",
+      "address": {
+        "street": "564 Pine Ln",
+        "city": "Hillsdale",
+        "state": "TX",
+        "zip": "98765"
+      },
+      "orders": [
+        {
+          "orderId": "ORD-876",
+          "orderDate": "2024-06-12",
+          "orderType": "Books",
+          "status": "Completed"
+        },
+        {
+          "orderId": "ORD-098",
+          "orderDate": "2024-06-29",
+          "orderType": "Electronics",
+          "status": "Processing"
+        }
+      ],
+      "status": "Active"
+    },
+    {
+      "id": 17,
+      "name": "Lucas Hall",
+      "email": "lucas.hall@example.com",
+      "phone": "+1650432177",
+      "address": {
+        "street": "564 Pine Ln",
+        "city": "Hillsdale",
+        "state": "TX",
+        "zip": "98765"
+      },
+      "orders": [
+        {
+          "orderId": "ORD-876",
+          "orderDate": "2024-06-11",
+          "orderType": "Books",
+          "status": "Completed"
+        },
+        {
+          "orderId": "ORD-098",
+          "orderDate": "2024-06-28",
+          "orderType": "Electronics",
+          "status": "Processing"
+        }
+      ],
+      "status": "Active"
+    },
+    {
+      "id": 18,
+      "name": "Mason Garcia",
+      "email": "mason.garcia@example.com",
+      "phone": "+1650432179",
+      "address": {
+        "street": "564 Pine Ln",
+        "city": "Hillsdale",
+        "state": "TX",
+        "zip": "98765"
+      },
+      "orders": [
+        {
+          "orderId": "ORD-876",
+          "orderDate": "2024-06-10",
+          "orderType": "Books",
+          "status": "Completed"
+        },
+        {
+          "orderId": "ORD-098",
+          "orderDate": "2024-06-27",
+          "orderType": "Electronics",
+          "status": "Processing"
+        }
+      ],
+      "status": "Active"
+    },
+    {
+      "id": 19,
+      "name": "Ethan Young",
+      "email": "ethan.young@example.com",
+      "phone": "+1650432175",
+      "address": {
+        "street": "564 Pine Ln",
+        "city": "Hillsdale",
+        "state": "TX",
+        "zip": "98765"
+      },
+      "orders": [
+        {
+          "orderId": "ORD-876",
+          "orderDate": "2024-06-09",
+          "orderType": "Books",
+          "status": "Completed"
+        },
+        {
+          "orderId": "ORD-098",
+          "orderDate": "2024-06-26",
+          "orderType": "Electronics",
+          "status": "Processing"
+        }
+      ],
+      "status": "Active"
+    },
+    {
+      "id": 20,
+      "name": "Madison Hill",
+      "email": "madison.hill@example.com",
+      "phone": "+1650432174",
+      "address": {
+        "street": "564 Pine Ln",
+        "city": "Hillsdale",
+        "state": "TX",
+        "zip": "98765"
+      },
+      "orders": [
+        {
+          "orderId": "ORD-876",
+          "orderDate": "2024-06-08",
+          "orderType": "Books",
+          "status": "Completed"
+        },
+        {
+          "orderId": "ORD-098",
+          "orderDate": "2024-06-25",
+          "orderType": "Electronics",
+          "status": "Processing"
+        }
+      ],
+      "status": "InActive"
+    }
+  ]
+  

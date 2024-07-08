@@ -1,14 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Navbar from './Navbar';
 import Sidebar from './Sidebar';
 
 const AuthenticatedLayout = ({ children }) => {
+  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+
+  const toggleSidebar = () => {
+    setIsSidebarOpen(!isSidebarOpen);
+  };
+
   return (
-    <div className="min-h-screen bg-gray-100 flex">
-      <Sidebar />
-      <div className="flex flex-col flex-grow ml-[250px]">
-        <Navbar />
-        <main className="flex-grow overflow-auto p-4">
+    <div className="flex h-screen overflow-hidden">
+      <Sidebar isOpen={isSidebarOpen} toggleSidebar={toggleSidebar} />
+      <div className={`flex-1 ${isSidebarOpen ? 'md:ml-64' : 'md:ml-0'} overflow-y-auto`}>
+        <Navbar toggleSidebar={toggleSidebar} />
+        <main className="p-4">
           {children}
         </main>
       </div>

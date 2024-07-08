@@ -1,15 +1,8 @@
-// CardComponent.js
 import React, { useState } from "react";
-import {
-  FaHeart,
-  FaStar,
-  FaArrowLeft,
-  FaArrowRight,
-  FaEdit,
-} from "react-icons/fa";
+import { FaHeart, FaStar, FaArrowLeft, FaArrowRight, FaEdit } from "react-icons/fa";
 import { LiaHeart } from "react-icons/lia";
 
-const CardComponent = ({ product }) => {
+const CardComponent = ({ product, onEdit }) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   const nextImage = () => {
@@ -58,9 +51,7 @@ const CardComponent = ({ product }) => {
         {product.isFavorite ? (
           <FaHeart className="text-[#F93C65] cursor-pointer text-3xl" />
         ) : (
-          <LiaHeart
-            className="text-gray-400 cursor-pointer text-3xl"
-          />
+          <LiaHeart className="text-gray-400 cursor-pointer text-3xl" />
         )}
       </div>
       <div className="mt-2 flex items-center">
@@ -74,7 +65,10 @@ const CardComponent = ({ product }) => {
         ))}
         <span className="ml-2 text-[14px]">({product.totalRatings})</span>
       </div>
-      <button className="mt-4 bg-[#E2EAF8] text-black py-2 px-4 rounded flex items-center rounded">
+      <button
+        className="mt-4 bg-[#E2EAF8] text-black py-2 px-4 rounded flex items-center"
+        onClick={() => onEdit(product)}
+      >
         <FaEdit className="mr-2" /> Edit Product
       </button>
     </div>
